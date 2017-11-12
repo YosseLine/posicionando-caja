@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("http://www.mulierchile.com/black-and-white-photography-wallpapers-for-desktop/black-and-white-photography-wallpapers-for-desktop-010.jpg");
+  max-width: 100%;
+  background-repeat: no-repeat;
+}
+h1{
+  display: inline-block;
+  margin: 20px 30px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+section{
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  border-bottom: 2px solid blue;
+  margin-bottom: 10px;
+}
+#container-btn{
+  margin-top: 20px;
+  display: inline-block;
+  transform: translateX(35%);
+}
+button{
+  padding: 10px;
+  background-image: url("https://i2.wp.com/www.medipod.co.za/wp-content/uploads/2014/05/tumblr_m7my7b4pDL1r836v5.jpg?ssl=1");
+  max-width: 100%;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  font-weight: 700;
+}
+#box{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: #fcd1ff;
+  border-radius: 15px;
+  transform: translateX(50%);
+}
+
+.top-box{
+  transform: translateY(10px);
+}
+.bottom-box{
+  transform: translateY(-10px);
+}
+.right-box{
+  transform: translateX(10px);
+}
+.left-box{
+  transform: translateX(-10px);
+}
+.dissapear-box{
+  display: none;
+}
+.change-color-box{
+  color: green;
+}
+.border-box{
+  border: 5px dotted #fff;
+}
